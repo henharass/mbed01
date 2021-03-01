@@ -5,7 +5,7 @@ DigitalOut myLED2(LED1);
 
 int main()
 {
-    myLED = 1;
+    myLED = 0;
     myLED2 = 0;
     while (1) {
         for (int i = 0; i < 6; i++) {
